@@ -1,1 +1,1 @@
-# vuex-card-demo
+# vuex-cart-demo
