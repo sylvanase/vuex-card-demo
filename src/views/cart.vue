@@ -20,6 +20,7 @@
             当你传递了自定义参数的时候，还想得到原来那个默认参数，就手动传递一个 $event
          -->
         <template v-slot="scope">
+          <!-- 不可以直接使用 v-model，绑定是vuex中的状态，而vuex中的状态不可以随意更改，所以使用赋值 -->
           <el-checkbox
             size="mini"
             :value="scope.row.isChecked"
