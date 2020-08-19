@@ -1,5 +1,6 @@
 import Vue from 'vue'
-import Vuex from 'vuex'
+import Vuex from '../myvuex'
+// import Vuex from 'vuex'
 // 引入模块的 store
 import products from './modules/products'
 import cart from './modules/cart'
